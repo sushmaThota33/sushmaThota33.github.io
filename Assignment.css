@@ -1,0 +1,46 @@
+p { color: navy; font-style: italic; }
+.two { color: darkgreen; font-size: 24px; }
+
+
+	
+	
+.center {
+margin:auto;
+width: 35%;
+height: 300px;
+border: 3px solid black;
+padding:10px;
+margin-top: 180px;
+
+}
+
+.form-control {
+font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+}
+
+.parent {
+height: 200px;
+background: #CCCCCC;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 10px;
+  background-color: #04AA6D;
+}
+
